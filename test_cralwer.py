@@ -1,4 +1,4 @@
-from lottery_crawler import winning_price_cralwer
+from src.lottery_crawler import winning_price_cralwer
 
 
 def test_url():
