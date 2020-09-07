@@ -30,7 +30,8 @@ steps:
   displayName: 'pytest'
   
 - script: |
-    python lottery_cralwer.py
+    cd src
+    python lottery_crawler.py
   displayName: 'run lottery_cralwer'
 
 schedules:
