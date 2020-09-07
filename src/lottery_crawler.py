@@ -27,7 +27,7 @@ def ifttt_request():
     headers = {"Content-Type": "application/json"}
     data = {"value1": winning_price}
 
-    if winning_price > 0:
+    if winning_price > 3000000000:
         requests.post(url, data=json.dumps(data), headers=headers)
     else:
         return
