@@ -28,6 +28,10 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+  
+- script: |
+    python lottery_cralwer.py
+  displayName: 'run lottery_cralwer'
 
 schedules:
 - cron: "0 12 * * 3"
